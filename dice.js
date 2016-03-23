@@ -18,7 +18,7 @@ var game = {
         var winTime = new Date();
         var timeDifference = Math.floor((winTime.getTime() - this.startTime.getTime())/1000);
         document.getElementById("message").innerHTML = "Winner!";
-        document.getElementById('attempts').innerHTML = "It took you " + numberOfTries + " tries and " +   timeDifference  + " seconds)";
+        document.getElementById('attempts').innerHTML = "(It took you " + numberOfTries + " tries and " +   timeDifference  + " seconds)";
         numberOfTries = 0;
         this.startTime= new Date();
 
