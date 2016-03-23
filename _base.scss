@@ -1,0 +1,59 @@
+.main {
+  height: 90%;
+  width: 50%;
+  border: 3px solid $themeColor;
+  margin-left: 24%;
+  border-radius: 15px;
+  background-color: $themeLiteColor;
+  margin-top: 75px;
+}
+
+
+h1{
+  width: 100%;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 1.5em;
+  color: #02233D;
+}
+.dice
+
+{
+  width: 100%;
+  text-align: center;
+}
+
+.die1 {
+
+  padding-top: 10px;
+  display: inline-block;
+  background-color: white;
+  border: 3px solid $themeColor;
+  margin: 20px;
+  height: 40px;
+  width: 50px;
+  margin-top: 20px;
+
+  }
+
+.buttonBox {
+
+    text-align: center;
+}
+  button {
+    color: #02233D;
+    font-family: 'Cinzel', serif;
+    background-color: white;
+    font-size: 1.5em;
+    border-color: $themeColor;
+    border-style: groove;;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  p, aside {
+    color: $themeOrange;
+    text-align: center;
+
+  }
